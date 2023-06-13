@@ -22,6 +22,7 @@ public class Main {
         
         ArrayList<Integer> listaNumeros = new ArrayList<>(app.rangoNumeros(numUno, numDos));
         
+        System.out.println("Los numeros en el rango son: ");
         for (int i = 0; i < listaNumeros.size(); i++) {
             int elemento = listaNumeros.get(i);
             System.out.println(elemento);
