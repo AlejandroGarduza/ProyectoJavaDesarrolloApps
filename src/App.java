@@ -20,11 +20,15 @@ public class App {
         
         if (numUno<numDos) {
             for(int i=(numUno+1);i<numDos;i++){
-                rango.add(i);
+                if(i%2!=0){
+                    rango.add(i);
+                }
             }            
         }else{
             for(int i = (numDos+1); i<numUno; i++){
-                rango.add(i);
+                if(i%2!=0){
+                    rango.add(i);
+                }
             }
         }
         
